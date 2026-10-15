@@ -19,9 +19,6 @@ function createLoginTracker(userInfo) {
                 
                 return `Login failed. Attempt ${attemptCount}`;
             }
+          }
         }
-
-      
-        return "Account locked due to too many failed login attempts";
     };
-}
